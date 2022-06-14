@@ -1,3 +1,8 @@
+@font-face {
+    font-family: FF;
+    src: url(../font/nasalization-rg.otf);
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +11,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    font-weight:600;
 }
 
 li {
@@ -68,50 +74,14 @@ a {
     padding: 10px 60px;   
     color: #fff;
     font-size: 1.2em;
-    font-weight: 700;
-    cursor: pointer; 
+    font-weight: 700; 
 }                                       /*Final da estilização da nav bar*/
 
 
-.hero{                                     /*Ínicio da estilização do Hero*/
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
 
-.hero img{
-    width: 35%;
-    height: 50%;
-    padding-top: 7rem;
-    padding-left: 10em;
-}
 
-.containerh{
-    padding-left: 15em;
-    text-align: center;
-}
 
-.containerh p{
-     color: #000;
-     font-size: 1.7em;   
-}
 
-.containerh h2{
-    color: #d6000d;
-    font-size: 3.4em;
-}
-
-.btn-hero{
-    background-color: #d6000d;
-    border: none;
-    border-radius: 5px;
-    cursor:pointer;
-}
-
-.btn-hero p{
-    color: #fff;
-    padding: 5px 50px ;
-}
 
 
 
@@ -126,8 +96,7 @@ a {
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     }
 
     .nav-menu.active {
@@ -155,7 +124,139 @@ a {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .hero{
-        display: block;
+    .container-img{
+        text-align: center;
+        padding-top: 55px;
+    }
+
+    .text-hero{
+        padding-top: 40px;
+        text-align: center;
+    }
+    .text-hero h1{
+        font-size: 40px;
+        color: #d6000d;
+    }
+
+    .btn-hero{
+        background-color: #d6000d;
+        border: none;
+        border-radius: .6em;
+        padding: 10px 40px;
+        margin-top: 20px;   
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 700; 
+    }
+    
+    .img-list{
+        text-align: center;
+        padding-bottom: 55px;
+    }
+    .container-img-list{
+        text-align: center;
+        padding-top: 150px;
+    }
+
+    .img-list ul{
+        text-align: center;
+    }        
+
+    .list-item{
+        text-align: left;
+        padding-top: 40px;
+        margin-left: 25%;
+    }
+    
+    .fa-solid{
+        padding-right: 10px;
+        color: #d6000d;
+    }
+    
+    .contato{
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 5rem;
+    }
+
+    #telefone{
+        background-color: #DCDCDC;
+        border: none;
+        border-radius: .6em;
+        padding: 10px 15px;
+        margin-top: 20px;
+        font-size: 1.2em;
+        text-align: left;
+    }
+    
+    .btn-enviar{
+        background-color: #d6000d;
+        border: none;
+        border-radius: .6em;
+        padding: 10px 40px;
+        margin-top: 20px;   
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 700; 
+    }
+
+    .testemunhos{
+        background-color: #DCDCDC;
+        margin: 0 2rem;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        display: flex;
+        font-size: 14px;                
+    }
+    
+    .testemunhos img{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 20px;            
+    }
+
+    .container-testemunhos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-testemunhos p{
+        margin: 20px 20px;
+        /*margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;*/
+        text-align: left;
+    }
+
+    .container-testemunhos h4{
+        padding-bottom: 20px;
+    }
+
+    .rodape{
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .rodape a{
+        /*color: #fff;*/
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .rodape h1{
+        font-style: italic;
+    }
+
+    .rodape p{
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-top: 1rem;
     }
 }
+
