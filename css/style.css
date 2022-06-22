@@ -79,7 +79,10 @@ a {
 
 
 
-
+.fa-solid{
+        padding-right: 10px;
+        color: #d6000d;
+    }
 
 
 
@@ -129,6 +132,10 @@ a {
         padding-top: 55px;
     }
 
+    .container-img>img{
+        width: 50%;
+    }
+
     .text-hero{
         padding-top: 40px;
         text-align: center;
@@ -166,11 +173,6 @@ a {
         text-align: left;
         padding-top: 40px;
         margin-left: 25%;
-    }
-    
-    .fa-solid{
-        padding-right: 10px;
-        color: #d6000d;
     }
     
     .contato{
@@ -244,7 +246,7 @@ a {
     }
 
     .rodape a{
-        /*color: #fff;*/
+        color: #d6000d;
         font-size: 1rem;
         font-weight: 700;
     }
@@ -288,3 +290,8 @@ a {
     }
 }
 
+@media only screen and (min-width: 769px){
+    .nav-item{
+        margin-left: 2rem;
+    }
+}
